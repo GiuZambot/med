@@ -79,3 +79,4 @@ test-report.xml*
 /cypress/screenshots
 /cypress-image-diff-screenshots/comparison
 /cypress-image-diff-html-report
+.vercel

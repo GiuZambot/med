@@ -1,4 +1,3 @@
-import mkcert from 'vite-plugin-mkcert'
 import path from 'path'
 import react from '@vitejs/plugin-react-swc'
 import tsconfig from './tsconfig.aliases.json'
@@ -19,7 +18,7 @@ export const alias = Object.entries(paths).reduce(
 
 export default defineConfig(() => {
   return {
-    plugins: [react(), mkcert()].filter(Boolean),
+    plugins: [react()],
     build: {
       terserOptions: {
         format: {
