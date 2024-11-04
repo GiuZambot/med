@@ -1,0 +1,73 @@
+.knowMoreContainer {
+  margin-top: 5%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #FF9FCC;
+  padding: 20px 40px;
+  gap: 20px;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.text {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 48px;
+  color: #000000;
+  max-width: 545px;
+}
+
+.formContainer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+
+.emailInput {
+  font-family: 'Sora', sans-serif;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  min-width: 250px;
+  width: 100vw;
+  max-width: 545px;
+  height: 72px;
+  border-radius: 15px;
+
+  &:focus {
+    border-color: #ff5722;
+  }
+}
+
+.submitButton {
+  width: 82px;
+  height: 72px;
+  font-family: 'Sora', sans-serif;
+  font-size: 27px;
+  font-weight: bold;
+  background-color: #FE6001;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: #e64a19;
+  }
+}

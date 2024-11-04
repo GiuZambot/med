@@ -1,0 +1,70 @@
+.heroContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5% 7%;
+  margin: 0 8%;
+  background-color: #FFE6DC;
+  border-radius: 25px;
+
+  background-image: url('../../assets/hero-background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.textContainer {
+  flex: 1;
+  padding: 20px;
+
+  .logo {
+    max-width: 300px;
+    margin-bottom: 20px;
+  }
+
+  .description {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  .joinContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+
+    @media (max-width: 768px) {
+      justify-content: center;
+    }
+
+    .avatars {
+      img {
+        width: 207px;
+        height: 66px;
+      }
+    }
+
+    .joinText {
+      font-family: 'Sora';
+      font-weight: bold;
+      font-size: 24px;
+      color: #FE6000;
+      font-weight: bold;
+      margin-left: 17px;
+    }
+  }
+}
+
+.imageGrid {
+  padding: 20px;
+}
