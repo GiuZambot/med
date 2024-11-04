@@ -1,0 +1,76 @@
+.container {
+  width: 100%;
+  padding: 113px 12%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #D8E267;
+  border-radius: 8px;
+}
+
+.title {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 64px;
+  line-height: 64px;
+  font-weight: bold;
+  margin: 0 0 68px 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 22px;
+}
+
+.button {
+  width: 426px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 40px;
+  background-color: #88C9EC;
+  border-radius: 100px;
+  border: solid 3px #000;
+  color: #000;
+  font-family: 'Space Grotesk', sans-serif;
+  text-decoration: none;
+  font-size: 42px;
+  font-weight: 500;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+
+  &:hover {
+    background-color: #88C9EC;
+  }
+}
+
+.icon {
+  margin-right: 15px;
+  width: 55px;
+  height: 55px;
+}
+
+.arrow {
+  display: flex;
+  align-items: center;
+  img {
+    width: 22px;
+  }
+}
+
+.description {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 18px;
+  color: #333;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+}
+
+.infoText {
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start ;
+  justify-content: center;
+}

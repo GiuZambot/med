@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Home.module.scss'
-import { BigNumbers, Hero, KnowMore, WhatWeDo } from '@components'
+import { BigNumbers, Hero, KnowMore, OurSupporters, WhatWeDo, WhereWeAre } from '@components'
 
 const Home: React.FC = () => {
   return (
@@ -9,6 +9,8 @@ const Home: React.FC = () => {
       <KnowMore />
       <WhatWeDo />
       <BigNumbers />
+      <WhereWeAre />
+      <OurSupporters />
     </div>
   )
 }

@@ -1,0 +1,25 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 20px;
+  background-color: #05AA8E;
+
+  span {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 48px;
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 12px;
+    margin-bottom: 68px;
+  }
+
+  .supporter {
+    display: flex;
+  }
+}
+

@@ -7,8 +7,10 @@ import Hero from './Hero/Hero'
 import KnowMore from './KnowMore/KnowMore'
 import AppLayout from './Layout/Layout'
 import { LoadingScreen } from './LoadingScreen/LoadingScreen'
+import OurSupporters from './OurSupporters/OurSupporters'
 import PageLoader from './PageLoader/PageLoader'
 import WhatWeDo from './WhatWeDo/WhatWeDo'
+import WhereWeAre from './WhereWeAre/WhereWeAre'
 
 // exports to simplify imports as @components
 export {
@@ -23,4 +25,6 @@ export {
   KnowMore,
   WhatWeDo,
   BigNumbers,
+  WhereWeAre,
+  OurSupporters,
 }
