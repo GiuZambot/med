@@ -10,15 +10,9 @@
     "lint": "eslint src",
     "format": "prettier --write .",
     "check-format": "prettier --check .",
-    "preinstall": "npx npm-force-resolutions",
     "test": "vitest run --coverage",
     "test:watch": "vitest",
-    "coverage": "vitest run --coverage",
-    "refreshVSToken": "vsts-npm-auth -config \"./.npmrc\"",
-    "refreshVSToken:wsl": "vsts-npm-auth -config \"./.npmrc\" -TargetConfig \"$HOME/.npmrc\"",
-    "build:dev": "vite build --mode development && cp staticwebapp.config.json dist/staticwebapp.config.json",
-    "build:stg": "vite build --mode staging && cp staticwebapp.config.json dist/staticwebapp.config.json",
-    "build:prd": "vite build --mode production && cp staticwebapp.config.json dist/staticwebapp.config.json"
+    "coverage": "vitest run --coverage"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
