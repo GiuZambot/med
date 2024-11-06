@@ -6,6 +6,8 @@ const pages: {
 } = {
   FatalError: () => import('../../pages/FatalError/FatalError'),
   Home: () => import('../../pages/Home/Home'),
+  About: () => import('../../pages/About/About'),
+  Contact: () => import('../../pages/Contact/Contact'),
   NotAuthorized: () => import('../../pages/NotAuthorized/NotAuthorized'),
   NotFound: () => import('../../pages/NotFound/NotFound'),
 }
@@ -23,7 +25,7 @@ const PageLoader = () => {
           const module = await pages[id]()
           setPageComponent(() => module.default)
         } catch {
-          navigate('/pages/NotFound')
+          navigate('/page/NotFound')
         }
       }
       loadPage()

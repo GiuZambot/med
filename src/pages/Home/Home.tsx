@@ -1,8 +1,14 @@
-import React from 'react'
 import styles from './Home.module.scss'
-import { BigNumbers, Hero, KnowMore, OurSupporters, WhatWeDo, WhereWeAre } from '@components'
+import {
+  BigNumbers,
+  Hero,
+  KnowMore,
+  OurSupporters,
+  WhatWeDo,
+  WhereWeAre,
+} from '@components'
 
-const Home: React.FC = () => {
+const Home = () => {
   return (
     <div className={styles.home}>
       <Hero />

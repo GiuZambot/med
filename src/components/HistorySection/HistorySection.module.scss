@@ -1,0 +1,59 @@
+.historySection {
+  display: flex;
+  align-items: center;
+  background-color: #FE6000;
+  padding: 7% 14%;
+  color: #ffffff;
+  font-family: 'Space Grotesk', sans-serif;
+  flex-direction: row;
+
+  .content {
+    flex: 1;
+    padding: 1rem;
+
+    h2 {
+      font-size: 64px;
+      font-weight: bold;
+      margin-bottom: 2rem;
+    }
+
+    p {
+      font-family: 'Sora', sans-serif;
+      font-size: 24px;
+      line-height: 36px;
+      margin-bottom: 2rem;
+    }
+  }
+
+  .imageWrapper {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+
+    .content {
+      h2 {
+        font-size: 48px;
+      }
+
+      p {
+        font-size: 18px;
+        line-height: 28px;
+      }
+    }
+
+    .imageWrapper {
+      margin-top: 2rem;
+    }
+  }
+}

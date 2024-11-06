@@ -13,11 +13,11 @@ const AppMenu = () => {
     },
     {
       key: 'about',
-      label: <Link to="/about">Quem Somos</Link>,
+      label: <Link to="/page/About">Quem Somos</Link>,
     },
     {
       key: 'contact',
-      label: <Link to="/contact">Contato</Link>,
+      label: <Link to="/page/Contact">Contato</Link>,
     },
   ]
 
