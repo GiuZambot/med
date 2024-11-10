@@ -1,7 +1,7 @@
 import styles from './HistorySection.module.scss'
 import group35 from '../../assets/Group35.png'
 
-const HistorySection: React.FC = () => (
+const HistorySection = () => (
   <section className={styles.historySection}>
     <div className={styles.content}>
       <h2>NOSSA HISTÓRIA</h2>

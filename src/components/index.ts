@@ -1,6 +1,7 @@
 import AppHeader from './AppHeader/AppHeader'
 import AppMenu from './AppMenu/AppMenu'
 import BigNumbers from './BigNumbers/BigNumbers'
+import FAQ from './FAQ/FAQ'
 import AppFooter from './Footer/Footer'
 import GenericPage from './GenericPage/GenericPage'
 import Hero from './Hero/Hero'
@@ -10,6 +11,7 @@ import AppLayout from './Layout/Layout'
 import { LoadingScreen } from './LoadingScreen/LoadingScreen'
 import OurSupporters from './OurSupporters/OurSupporters'
 import PageLoader from './PageLoader/PageLoader'
+import SupportUs from './SupportUs/SupportUs'
 import TeamSection from './TeamSection/TeamSection'
 import TestimonialsSection from './TestimonialsSection/TestimonialsSection'
 import WhatWeDo from './WhatWeDo/WhatWeDo'
@@ -33,4 +35,6 @@ export {
   HistorySection,
   TeamSection,
   TestimonialsSection,
+  SupportUs,
+  FAQ,
 }

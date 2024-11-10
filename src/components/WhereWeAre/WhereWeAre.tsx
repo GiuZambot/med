@@ -1,40 +1,40 @@
-import discord from "../../assets/discord.svg";
-import github from "../../assets/github.svg";
-import instagram from "../../assets/instagram.svg";
-import linkedin from "../../assets/linkedin.svg";
-import arrow from "../../assets/arrow.svg";
-import styles from "./WhereWeAre.module.scss";
+import discord from '../../assets/discord.svg'
+import github from '../../assets/github.svg'
+import instagram from '../../assets/instagram.svg'
+import linkedin from '../../assets/linkedin.svg'
+import arrow from '../../assets/arrow.svg'
+import styles from './WhereWeAre.module.scss'
 
 interface SocialLink {
-  name: string;
-  icon: string;
-  url: string;
-  description?: string;
+  name: string
+  icon: string
+  url: string
+  description?: string
 }
 
 const socialLinks: SocialLink[] = [
   {
     name: 'LinkedIn',
     icon: linkedin,
-    url: 'https://linkedin.com/',
+    url: 'https://www.linkedin.com/company/mulheresemdados',
   },
   {
     name: 'Discord*',
     icon: discord,
-    url: 'https://discord.com/',
+    url: 'https://discord.gg/mulheresemdados',
     description: '*apenas para mulheres',
   },
   {
     name: 'Instagram',
     icon: instagram,
-    url: 'https://instagram.com/',
+    url: 'https://www.instagram.com/mulheresemdados/',
   },
   {
     name: 'GitHub',
     icon: github,
-    url: 'https://github.com/',
+    url: 'https://github.com/mulheresemdados',
   },
-];
+]
 
 const WhereWeAre = () => {
   return (
@@ -50,13 +50,15 @@ const WhereWeAre = () => {
             className={styles.button}
           >
             <div className={styles.info}>
-              <img src={link.icon} alt={`${link.name} icon`} className={styles.icon} />
+              <img
+                src={link.icon}
+                alt={`${link.name} icon`}
+                className={styles.icon}
+              />
               <div className={styles.infoText}>
                 <span>{link.name}</span>
                 <span className={styles.description}>
-                  {link.description && (
-                    link.description
-                  )}
+                  {link.description && link.description}
                 </span>
               </div>
             </div>
@@ -67,7 +69,7 @@ const WhereWeAre = () => {
         ))}
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default WhereWeAre;
+export default WhereWeAre

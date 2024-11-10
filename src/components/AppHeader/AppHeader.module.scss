@@ -1,10 +1,10 @@
 .appHeader {
+  position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: transparent;
+  background-color: #F8F8F8;
   padding: 0 12%;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   height: 168px;
   width: 100%;
 
@@ -14,6 +14,18 @@
 
     img {
       height: 76px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .appHeader {
+    height: 86px;
+
+    .logo {
+      img {
+        height: 40px;
+      }
     }
   }
 }

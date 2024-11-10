@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './TestimonialsSection.module.scss';
 
-const TestimonialsSection: React.FC = () => (
+const TestimonialsSection = () => (
   <section className={styles.testimonials}>
     <h2>DEPOIMENTOS</h2>
     <blockquote>
