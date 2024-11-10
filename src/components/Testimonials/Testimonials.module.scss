@@ -1,0 +1,102 @@
+.testimonialsContainer {
+  width: 100%;
+  padding: 100px 14%;
+  background-color: #F8F8F8;
+}
+
+.title {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 64px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 36px;
+}
+
+.subtitle {
+  max-width: 50%;
+  font-family: 'Sora', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: #000;
+  margin-bottom: 60px;
+}
+
+.testimonialCards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px 20px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.card {
+  flex: 1 1 calc(50% - 20px);
+  padding: 100px 43px 43px 43px;
+  border-radius: 50px;
+  font-family: 'Sora', sans-serif;
+  font-size: 24px;
+  line-height: 1.5;
+  position: relative;
+  color: #000;
+  text-align: left;
+  box-shadow: 0 18px 0 0px black;
+
+  .card:nth-child(3) {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  &::before {
+    content: '';
+    width: 70px;
+    height: 70px;
+    margin: 20px;
+    background-image: url('../../assets/aspas.png');
+    background-repeat: no-repeat;
+    font-family: 'Sora', sans-serif;
+    font-size: 165px;
+    line-height: 100%;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    color: #000;
+  }
+
+  &.pink {
+    background-color: #FFA0CD;
+  }
+
+  &.green {
+    background-color: #D8E267;
+  }
+
+  &.purple {
+    background-color: #FFE6DD;
+  }
+}
+
+.callToAction {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: center;
+  font-size: 24px;
+  color: #000;
+}
+
+.button {
+  margin-top: 16px;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000000;
+  background-color: #FE6000;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #ff7a28
+  }
+}

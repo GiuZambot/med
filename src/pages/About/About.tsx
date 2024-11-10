@@ -1,12 +1,13 @@
-import { HistorySection, TeamSection, TestimonialsSection } from '@components'
+import { HistorySection, Impact, TeamSection, Testimonials } from '@components'
 import styles from './About.module.scss'
 
 const About = () => {
   return (
     <div className={styles.aboutPage}>
       <HistorySection />
+      <Impact />
       <TeamSection />
-      {/* <TestimonialsSection /> */}
+      <Testimonials />
     </div>
   )
 }
