@@ -49,6 +49,7 @@ const FAQ = () => {
         <p>
           Com certeza! Nossa comunidade é o ambiente perfeito para quem deseja
           desenvolver um portfólio na área de dados. <br />
+          <br />
           No nosso GitHub, você encontra um repositório (
           <a href="https://github.com/mulheresemdados/portfolios">
             https://github.com/mulheresemdados/portfolios
@@ -67,7 +68,9 @@ const FAQ = () => {
           Nosso principal canal de interação da comunidade é o Discord, um
           espaço exclusivo para mulheres. O acesso é gratuito e será liberado
           após verificação pelas nossas moderadoras. Você pode se juntar a nós
-          através deste link:{' '}
+          através deste link:
+          <br />
+          <br />
           <a href="https://discord.com/invite/mulheresemdados">
             https://discord.com/invite/mulheresemdados
           </a>
@@ -84,7 +87,8 @@ const FAQ = () => {
           maneira mais simples é seguir o MeD em todas as nossas redes sociais e
           compartilhar os nossos conteúdos. Se quiser apoiar ainda mais, a
           partir de R$15, você pode se tornar um apoiador da nossa campanha no
-          Apoia-se — basta clicar aqui e contribuir! <br />(
+          Apoia-se — basta clicar aqui e contribuir! <br />
+          <br />(
           <a href="https://apoia.se/mulheresemdados">
             https://apoia.se/mulheresemdados
           </a>
@@ -94,6 +98,8 @@ const FAQ = () => {
           está disposta a colocar a mão na massa, junte-se a nós como voluntária
           em uma de nossas iniciativas. Cada contribuição é valiosa e faz a
           diferença! Para mais detalhes, confira este post no Medium:
+          <br />
+          <br />
           <a href="https://medium.com/mulheres-em-dados/como-voc%C3%AA-pode-contribuir-com-a-comunidade-mulheres-em-dados-10e7b4f84808">
             https://medium.com/mulheres-em-dados/como-voc%C3%AA-pode-contribuir-com-a-comunidade-mulheres-em-dados-10e7b4f84808
           </a>
