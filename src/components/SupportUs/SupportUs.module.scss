@@ -1,10 +1,13 @@
 .supportUsContainer {
   width: 100%;
-  padding: 113px 14%;
+  padding: 113px 7%;
   background-color: #F8F8F8;
   display: flex;
   align-items: center;
   justify-content:center;
+  @media (max-width: 980px) {
+    padding: 60px 7%;
+  }
 }
 
 .textContainer {
@@ -16,6 +19,12 @@
   justify-content:center;
   gap: 84px;
 
+  @media (max-width: 980px) {
+    padding: 45px 75px;
+    flex-direction: column;
+    gap: 44px;
+  }
+
   h2 {
     font-family: 'Space Grotesk', sans-serif;
     font-weight: bold;
@@ -25,6 +34,11 @@
     color: #000000;
     margin: 0;
     margin-bottom: 27px;
+    
+    @media (max-width: 980px) {
+      font-size: 36px;
+      line-height: 36px;
+    }
   }
 
   p {
@@ -33,6 +47,10 @@
     line-height: 48px;
     color: #000000;
     margin: 0;
+    @media (max-width: 980px) {
+      font-size: 18px;
+      line-height: 18px;
+    }
   }
 }
 
@@ -49,6 +67,13 @@
   border-radius: 50px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+
+  @media (max-width: 980px) {
+    font-size: 12px;
+    line-height: 12px;
+    min-width: 259px;
+    height: 48px;
+  }
 
   &:hover {
     background-color: #ff7a28

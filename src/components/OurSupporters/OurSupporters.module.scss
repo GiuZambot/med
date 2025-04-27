@@ -1,13 +1,11 @@
 .container {
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   padding: 100px 20px;
   background-color: #05AA8E;
 
-  span {
+  .title {
+    display: flex;
+    justify-content: center;
     font-family: 'Space Grotesk', sans-serif;
     font-weight: bold;
     font-size: 64px;
@@ -16,10 +14,19 @@
     text-decoration-thickness: 4px;
     text-underline-offset: 12px;
     margin-bottom: 68px;
+    @media (max-width: 980px) {
+      font-size: 24px;
+      line-height: 24px;
+      text-decoration-thickness: 2px;
+    }
   }
 
-  .supporter {
-    display: flex;
+  .supporters {
+    padding: 0px 50px;
+  }
+
+  img {
+    height: 100px;
   }
 }
 

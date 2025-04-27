@@ -1,6 +1,6 @@
 .container {
   width: 100%;
-  padding: 40px 14%;
+  padding: 00px 14%;
   background: #F8F8F8;
 
   .ant-collapse-item-active {
@@ -12,6 +12,9 @@
   font-size: 64px;
   font-weight: bold;
   color: #000000;
+  @media (max-width: 980px) {
+    font-size: 24px;
+  }
 }
 
 .panelStyle {
@@ -23,8 +26,15 @@
   font-size: 32px;
   line-height: 42px;
 
+  @media (max-width: 980px) {
+    font-size: 12px;
+  }
+
   span, p {
     padding: 0 45px !important;
+    @media (max-width: 980px) {
+      padding: 0 25px !important;
+    }
   }
 
   div {
@@ -33,6 +43,9 @@
 
   div div span {
     font-size: 26px !important;
+    @media (max-width: 980px) {
+      font-size: 12px !important;
+    }
   }
 }
 

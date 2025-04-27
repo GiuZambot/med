@@ -6,7 +6,7 @@
 
   .desktopMenu {
     display: flex;
-    gap: 25px;
+    gap: 50px;
 
     @media (max-width: 840px) {
       display: none;

@@ -5,9 +5,9 @@ import IconArrowUp from '../../assets/Count.png'
 
 const BigNumbers = () => {
   const bigNumbers = [
-    { id: 1, label: 'Linkedin', value: 30 },
+    { id: 1, label: 'Linkedin', value: 36 },
     { id: 2, label: 'Discord', value: 10 },
-    { id: 3, label: 'Instagram', value: 9 },
+    { id: 3, label: 'Instagram', value: 10 },
     { id: 4, label: 'YouTube', value: 4 },
   ]
 

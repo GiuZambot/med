@@ -2,14 +2,13 @@
   margin-top: 5%;
   width: 100%;
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
   background-color: #FF9FCC;
   padding: 20px 40px;
   gap: 20px;
 
-  @media (max-width: 768px) {
+  @media (max-width: 980px) {
     flex-direction: column;
     text-align: center;
   }
@@ -23,15 +22,19 @@
   line-height: 48px;
   color: #000000;
   max-width: 545px;
+  @media (max-width: 980px) {
+    font-size: 24px;
+  }
 }
 
 .formContainer {
   display: flex;
   align-items: center;
   gap: 20px;
+  flex-wrap: nowrap;
 
-  @media (max-width: 768px) {
-    flex-direction: column;
+  @media (max-width: 980px) {
+    gap: 10px;
   }
 }
 
@@ -40,13 +43,20 @@
   padding: 10px 15px;
   font-size: 1rem;
   border: 1px solid #ccc;
-  border-radius: 8px;
   outline: none;
   min-width: 250px;
   width: 100vw;
   max-width: 545px;
   height: 72px;
   border-radius: 15px;
+  margin: 0 10px;
+
+  @media (max-width: 980px) {
+    width: unset;
+    font-size: 14px;
+    height: 49px;
+    padding: 5px 10px;
+  }
 
   &:focus {
     border-color: #ff5722;
@@ -66,6 +76,13 @@
   border-radius: 15px;
   cursor: pointer;
   transition: background-color 0.3s;
+
+  @media (max-width: 980px) {
+    font-size: 14px;
+    width: 49px;
+    height: 49px;
+    padding: 5px 10px;
+  }
 
   &:hover {
     background-color: #e64a19;
