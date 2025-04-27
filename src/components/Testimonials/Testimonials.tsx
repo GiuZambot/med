@@ -5,11 +5,10 @@ const Testimonials = () => {
     <div className={styles.testimonialsContainer}>
       <h2 className={styles.title}>DEPOIMENTOS</h2>
       <p className={styles.subtitle}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac ante
-        ultrices, imperdiet tortor vitae, egestas neque. Curabitur nec elit
-        neque. Nullam quis metus at neque eleifend ultricies a nec nibh. Mauris
-        purus arcu, placerat id tristique non, blandit quis est. Sed vitae
-        iaculis lorem.
+        Histórias inspiradoras de mulheres que conquistaram sua transição de
+        carreira para a área de dados. Cada depoimento é um lembrete de que,
+        juntas, é possível dar esse passo e alcançar novos caminhos
+        profissionais.
       </p>
 
       <div className={styles.testimonialCards}>

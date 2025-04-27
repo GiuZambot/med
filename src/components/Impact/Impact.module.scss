@@ -45,6 +45,9 @@
   font-size: 96px;
   font-weight: bold;
   margin: 0;
+  @media (max-width: 980px) {
+    font-size: 69px;
+  }
 }
 
 .description {
@@ -52,4 +55,7 @@
   font-size: 42px;
   margin: 0;
   color: #000000;
+  @media (max-width: 980px) {
+    font-size: 30px;
+  }
 }

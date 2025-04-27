@@ -1,7 +1,6 @@
 import { useRef } from 'react'
 import Slider from 'react-slick'
-import styles from './TeamSection.module.scss'
-import group30 from '../../assets/women/group30.png'
+import group29 from '../../assets/women/group29.png'
 import group31 from '../../assets/women/group31.png'
 import group32 from '../../assets/women/group32.png'
 import group33 from '../../assets/women/group33.png'
@@ -13,7 +12,6 @@ import group41 from '../../assets/women/group41.png'
 import group42 from '../../assets/women/group42.png'
 import group43 from '../../assets/women/group43.png'
 import group44 from '../../assets/women/group44.png'
-import group45 from '../../assets/women/group45.png'
 import group46 from '../../assets/women/group46.png'
 import group47 from '../../assets/women/group47.png'
 import group48 from '../../assets/women/group48.png'
@@ -40,7 +38,6 @@ import group70 from '../../assets/women/group70.png'
 import group71 from '../../assets/women/group71.png'
 import group72 from '../../assets/women/group72.png'
 import group73 from '../../assets/women/group73.png'
-import group74 from '../../assets/women/group74.png'
 import group76 from '../../assets/women/group76.png'
 import group77 from '../../assets/women/group77.png'
 import group78 from '../../assets/women/group78.png'
@@ -58,9 +55,10 @@ import group90 from '../../assets/women/group90.png'
 import group91 from '../../assets/women/group91.png'
 import group92 from '../../assets/women/group92.png'
 import group94 from '../../assets/women/group94.png'
+import styles from './TeamSection.module.scss'
 
 const teamMembers = [
-  { name: 'Alessandra de Araújo', image: group30 },
+  { name: 'Adriana Casadei', image: group29 },
   { name: 'Fernanda Duarte', image: group31 },
   { name: 'Juliana Viturino', image: group32 },
   { name: 'Marcella Galeotti', image: group33 },
@@ -72,15 +70,14 @@ const teamMembers = [
   { name: 'Anna Karoline', image: group42 },
   { name: 'Anna Karoline', image: group43 },
   { name: 'Aretuza dos Santos', image: group44 },
-  { name: 'Brenda Aguiar', image: group45 },
   { name: 'Camila Cruz', image: group46 },
   { name: 'Camila Leite', image: group47 },
   { name: 'Camila Moscatelli', image: group48 },
-  { name: 'Carina Morais', image: group49 },
+  { name: 'Camila Morais', image: group49 },
   { name: 'Carina Ameijeiras', image: group50 },
   { name: 'Caroline Gugliotti', image: group51 },
   { name: 'Cássia Santos', image: group52 },
-  { name: 'Cibele Goiabeira', image: group53 },
+  { name: 'Cibelle Goiabeira', image: group53 },
   { name: 'Crislane Costa', image: group54 },
   { name: 'Daiane Oliveira', image: group55 },
   { name: 'Daianny Gomes', image: group56 },
@@ -98,8 +95,7 @@ const teamMembers = [
   { name: 'Letícia Cândido', image: group70 },
   { name: 'Juliana Cruz', image: group71 },
   { name: 'Letícia Pires', image: group72 },
-  { name: 'Marcela Rodrigues', image: group73 },
-  { name: 'Mariana Rufino', image: group74 },
+  { name: 'Maciela Rodrigues', image: group73 },
   { name: 'Mariana Mourão', image: group76 },
   { name: 'Luisa Ferraz', image: group77 },
   { name: 'Marina Paiano', image: group78 },
@@ -171,10 +167,11 @@ const TeamSection = () => {
 
   return (
     <section className={styles.teamSection}>
-      <h2>NOSSA EQUIPE</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac ante
-        ultrices, imperdiet tortor vitae, egestas neque.
+      <h2 className={styles.title}>NOSSA EQUIPE</h2>
+      <p className={styles.text}>
+        Uma comunidade construída por mulheres e para mulheres. Nossa equipe
+        atua de forma voluntária, unindo nossos esforços para apoiar, inspirar e
+        fortalecer todas as manas da área de dados.
       </p>
       <Slider ref={sliderRef} {...settings}>
         {teamMembers.map((member, index) => (
