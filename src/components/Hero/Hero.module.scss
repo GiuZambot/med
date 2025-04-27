@@ -13,7 +13,7 @@
   background-position: center;
   background-repeat: no-repeat;
 
-  @media (max-width: 768px) {
+  @media (max-width: 980px) {
     flex-direction: column;
     text-align: center;
   }
@@ -43,7 +43,7 @@
     align-items: center;
     margin-top: 20px;
 
-    @media (max-width: 768px) {
+    @media (max-width: 980px) {
       justify-content: center;
     }
 
@@ -67,4 +67,9 @@
 
 .imageGrid {
   padding: 20px;
+  img {
+    width: 100%;
+    min-width: 350px;
+    max-width: 580px;
+  }
 }

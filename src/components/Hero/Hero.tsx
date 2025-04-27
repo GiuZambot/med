@@ -1,7 +1,7 @@
-import styles from './Hero.module.scss'
 import logoImage from '../../assets/Ativo10.png'
 import Group27 from '../../assets/Group27.png'
 import Group59 from '../../assets/Group59.png'
+import styles from './Hero.module.scss'
 
 const Hero = () => {
   return (
@@ -17,7 +17,7 @@ const Hero = () => {
           <div className={styles.avatars}>
             <img src={Group59} alt="Avatar" />
           </div>
-          <p className={styles.joinText}>Junte-se a + de 6.500 mulheres</p>
+          <p className={styles.joinText}>Junte-se a + de 10 mil mulheres</p>
         </div>
       </div>
 
