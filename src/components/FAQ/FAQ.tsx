@@ -3,13 +3,13 @@ import type { CollapseProps } from 'antd'
 import { Collapse } from 'antd'
 import styles from './FAQ.module.scss'
 
-const FAQ = () => {
+const Faq = () => {
   const items: CollapseProps['items'] = [
     {
       key: '1',
       label: 'Onde posso acompanhar a agenda da comunidade?',
       children: (
-        <p>
+        <p className={styles.text}>
           Para acompanhar a agenda da comunidade, basta acessar o Google Agenda.
           No menu “Outras agendas”, clique em “Inscrever-se na agenda” e insira
           o e-mail contato@mulheresemdados.com.
@@ -20,7 +20,7 @@ const FAQ = () => {
       key: '2',
       label: 'Quero divulgar uma vaga, como faço?',
       children: (
-        <p>
+        <p className={styles.text}>
           No nosso Discord, temos o canal #vagas, que é atualizado diariamente
           pelas mulheres da comunidade, incluindo recrutadoras e membros do MeD.
           Se a sua empresa deseja uma divulgação mais ampla e impulsionada nas
@@ -33,7 +33,7 @@ const FAQ = () => {
       key: '3',
       label: 'Como se tornar voluntária da comunidade?',
       children: (
-        <p>
+        <p className={styles.text}>
           Em nossa nova estrutura, nossas ações serão organizadas por meio de
           projetos. Se você deseja participar de algum deles, basta aguardar a
           abertura das inscrições, momento em que iniciaremos o processo
@@ -46,7 +46,7 @@ const FAQ = () => {
       key: '4',
       label: 'Consigo criar portfólio participando da comunidade?',
       children: (
-        <p>
+        <p className={styles.text}>
           Com certeza! Nossa comunidade é o ambiente perfeito para quem deseja
           desenvolver um portfólio na área de dados. <br />
           <br />
@@ -64,7 +64,7 @@ const FAQ = () => {
       key: '5',
       label: 'Qual é o link de acesso a comunidade?',
       children: (
-        <p>
+        <p className={styles.text}>
           Nosso principal canal de interação da comunidade é o Discord, um
           espaço exclusivo para mulheres. O acesso é gratuito e será liberado
           após verificação pelas nossas moderadoras. Você pode se juntar a nós
@@ -82,7 +82,7 @@ const FAQ = () => {
       key: '5',
       label: 'Como posso ajudar a comunidade?',
       children: (
-        <p>
+        <p className={styles.text}>
           Você pode contribuir com a nossa comunidade de diversas formas! A
           maneira mais simples é seguir o MeD em todas as nossas redes sociais e
           compartilhar os nossos conteúdos. Se quiser apoiar ainda mais, a
@@ -110,7 +110,7 @@ const FAQ = () => {
       key: '5',
       label: 'Quais são os projetos que a comunidade oferece?',
       children: (
-        <p>
+        <p className={styles.text}>
           Nossa comunidade oferece diversos recursos gratuitos para ajudar no
           seu desenvolvimento na área de dados! No nosso GitHub, você encontra
           trilhas de estudo completas, ideais para quem está começando. No
@@ -148,4 +148,4 @@ const FAQ = () => {
   )
 }
 
-export default FAQ
+export default Faq

@@ -18,3 +18,183 @@ body {
 .slick-prev::before {
   font-size: 32px !important;
 }
+
+.slick-track {
+  min-height: 150px !important;
+}
+
+
+.knowMoreContainer {
+  width: 100%;
+  >div {
+    width: 100% !important;
+  }
+
+  .bricks-form__label {
+    display: none !important;
+  }
+
+  label {
+    margin-top: 5px !important;
+    margin-left: 15px !important;
+  }
+
+  .bricks-form__input {
+    color: #000 !important;
+    font-size: 21px !important;
+    font-family: 'Sora', sans-serif !important;
+    padding: 10px 15px !important;
+    border: 1px solid #ccc !important;
+    outline: none !important;
+    min-width: 250px !important;
+    width: 100vw !important;
+    max-width: 500px !important;
+    height: 72px !important;
+    border-radius: 15px !important;
+    margin: 0 10px !important;
+
+    &::placeholder{
+      color: #616161 !important;
+      font-size: 21px !important;
+      font-family: 'Sora', sans-serif !important;
+    }
+
+    &:focus {
+      border-color: #ff5722 !important;
+    }
+  }
+
+  .rd-button {
+    width: 82px !important;
+    height: 72px !important;
+    font-family: 'Sora', sans-serif !important;
+    font-size: 27px !important;
+    font-weight: bold !important;
+    background-color: #FE6001 !important;
+    color: #fff !important;
+    border: none !important;
+    padding: 10px 20px !important;
+    border-radius: 15px !important;
+    cursor: pointer !important;
+    transition: background-color 0.3s !important;
+
+    @media (max-width: 980px) {
+      font-size: 14px !important;
+      width: 49px !important;
+      height: 49px !important;
+      padding: 5px 10px !important;
+    }
+
+    &:hover {
+      background-color: #e64a19 !important;
+    }
+  }
+
+  .rd-column{
+    width: 100% !important;
+  }
+
+  .rd-form form {
+    height: 100px !important;
+    margin-top: 25px !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    gap: 20px !important;
+    flex-wrap: nowrap !important;
+
+    @media (max-width: 980px) {
+      gap: 10px !important;
+      margin-top: 0px !important;
+    }
+    .bricks-form__fieldset {
+      margin-top: 5px !important;
+    }
+  }
+
+  @media (max-width: 980px) {
+    section {
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+    .bricks-form__input {
+      width: unset !important;
+      font-size: 14px !important;
+      height: 49px !important;
+      padding: 5px 10px !important;
+
+      &::placeholder{
+        font-size: 14px !important;
+      }
+    }
+  }
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px auto;
+
+  > div {
+    width: 100%;
+    min-width: 480px;
+  }
+
+  section {
+    border-radius: 20px;
+    overflow: hidden;
+
+  }
+
+  .rd-form form {
+    padding: 20px !important;
+  }
+
+  .bricks-form__label {
+    display: none !important;
+  }
+
+  .bricks-form__input {
+    color: #000 !important;
+    font-size: 21px !important;
+    font-family: 'Sora', sans-serif !important;
+    padding: 10px 15px !important;
+    border: 1px solid #ccc !important;
+    outline: none !important;
+    min-width: 250px !important;
+    height: 72px !important;
+    border-radius: 15px !important;
+    margin: 0 10px !important;
+
+    &::placeholder{
+      color: #616161 !important;
+      font-size: 21px !important;
+      font-family: 'Sora', sans-serif !important;
+    }
+
+    &:focus {
+      border-color: #ff5722 !important;
+    }
+  }
+  @media (max-width: 980px) {
+    section {
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+    .bricks-form__input {
+      width: unset !important;
+      font-size: 14px !important;
+      height: 49px !important;
+      padding: 5px 10px !important;
+
+      &::placeholder{
+        font-size: 14px !important;
+      }
+    }
+    .rd-form form {
+      padding: 0px !important;
+    }
+  }
+}

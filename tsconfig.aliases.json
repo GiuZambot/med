@@ -4,7 +4,8 @@
     "paths": {
       "@components": ["components/index.ts"],
       "@pages": ["pages/index.ts"],
-      "@shared": ["shared/index.ts"]
+      "@shared": ["shared/index.ts"],
+      "@assets/*": ["assets/*"]
     }
   }
 }

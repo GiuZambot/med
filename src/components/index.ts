@@ -1,7 +1,9 @@
 import AppHeader from './AppHeader/AppHeader'
 import AppMenu from './AppMenu/AppMenu'
+import ArrowIcon from './ArrowIcon/ArrowIcon'
 import BigNumbers from './BigNumbers/BigNumbers'
-import FAQ from './FAQ/FAQ'
+import CommunityContent from './CommunityContent/CommunityContent'
+import Faq from './FAQ/FAQ'
 import AppFooter from './Footer/Footer'
 import GenericPage from './GenericPage/GenericPage'
 import Hero from './Hero/Hero'
@@ -20,23 +22,25 @@ import WhereWeAre from './WhereWeAre/WhereWeAre'
 
 // exports to simplify imports as @components
 export {
-  GenericPage,
-  AppLayout,
-  LoadingScreen,
-  PageLoader,
   AppFooter,
-  AppMenu,
   AppHeader,
-  Hero,
-  KnowMore,
-  WhatWeDo,
+  AppLayout,
+  AppMenu,
+  ArrowIcon,
   BigNumbers,
-  WhereWeAre,
-  OurSupporters,
+  CommunityContent,
+  Faq,
+  GenericPage,
+  Hero,
   HistorySection,
+  Impact,
+  KnowMore,
+  LoadingScreen,
+  OurSupporters,
+  PageLoader,
+  SupportUs,
   TeamSection,
   Testimonials,
-  SupportUs,
-  FAQ,
-  Impact,
+  WhatWeDo,
+  WhereWeAre,
 }

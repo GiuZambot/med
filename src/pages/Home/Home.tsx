@@ -1,7 +1,7 @@
-import styles from './Home.module.scss'
 import {
   BigNumbers,
-  FAQ,
+  CommunityContent,
+  Faq,
   Hero,
   KnowMore,
   OurSupporters,
@@ -9,6 +9,7 @@ import {
   WhatWeDo,
   WhereWeAre,
 } from '@components'
+import styles from './Home.module.scss'
 
 const Home = () => {
   return (
@@ -18,9 +19,10 @@ const Home = () => {
       <WhatWeDo />
       <BigNumbers />
       <WhereWeAre />
+      <CommunityContent />
       <OurSupporters />
       <SupportUs />
-      <FAQ />
+      <Faq />
     </div>
   )
 }

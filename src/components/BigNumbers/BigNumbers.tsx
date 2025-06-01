@@ -5,9 +5,9 @@ import IconArrowUp from '../../assets/Count.png'
 
 const BigNumbers = () => {
   const bigNumbers = [
-    { id: 1, label: 'Linkedin', value: 36 },
+    { id: 1, label: 'Linkedin', value: 39 },
     { id: 2, label: 'Discord', value: 10 },
-    { id: 3, label: 'Instagram', value: 10 },
+    { id: 3, label: 'Instagram', value: 11 },
     { id: 4, label: 'YouTube', value: 4 },
   ]
 
@@ -15,7 +15,7 @@ const BigNumbers = () => {
     <div className={styles.bigNumbersContainer}>
       <div className={styles.header}>
         <h2 className={styles.title}>
-          NOSSOS BIG NUMBERS
+          {'NOSSOS BIG NUMBERS'}
           <img src={IconArrowUp} alt="arrow icon" className={styles.icon} />
         </h2>
         <p className={styles.subtitle}>(Onde já chegamos)</p>

@@ -8,7 +8,13 @@ const SupportUs = () => {
           <h2>Apoie o MeD</h2>
           <p>Nos apoie nessa iniciativa por mais Mulheres em Dados</p>
         </div>
-        <button className={styles.supportButton}>APOIAR O MED</button>
+        <a
+          href="https://apoia.se/mulheresemdados"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className={styles.supportButton}>APOIAR O MED</button>
+        </a>
       </div>
     </div>
   )

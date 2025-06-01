@@ -1,8 +1,8 @@
+import arrow from '@assets/arrow.svg'
 import discord from '../../assets/discord.svg'
 import github from '../../assets/github.svg'
 import instagram from '../../assets/instagram.svg'
 import linkedin from '../../assets/linkedin.svg'
-import arrow from '../../assets/arrow.svg'
 import styles from './WhereWeAre.module.scss'
 
 interface SocialLink {

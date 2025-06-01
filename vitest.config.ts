@@ -25,11 +25,6 @@ export default defineConfig({
         '**/setupTests.tsx',
       ],
     },
-    server: {
-      deps: {
-        inline: [/@celebration\/.*/],
-      },
-    },
     css: false,
     alias: {
       '\\.(css|scss)$': 'identity-obj-proxy',
