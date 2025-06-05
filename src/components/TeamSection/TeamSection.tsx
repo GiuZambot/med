@@ -39,7 +39,7 @@ import group49 from '@assets/women/group49.png'
 // import group70 from '@assets/women/group70.png'
 // import group71 from '@assets/women/group71.png'
 // import group72 from '@assets/women/group72.png'
-import group74 from '@assets/women/group73.png'
+import group74 from '@assets/women/group74.png'
 // import group76 from '@assets/women/group76.png'
 // import group77 from '@assets/women/group77.png'
 // import group78 from '@assets/women/group78.png'
@@ -62,11 +62,11 @@ import styles from './TeamSection.module.scss'
 const teamMembers = [
   { name: 'Mariana Rufino', image: group74 },
   { name: 'Camila Morais', image: group49 },
+  { name: 'Brenda Garcia', image: group45 },
+  { name: 'Alessandra de Araújo', image: group30 },
   { name: 'Rita Camargos', image: group88 },
   { name: 'Sabrina Souza', image: group86 },
   { name: 'Raquel Reis', image: group34 },
-  { name: 'Alessandra de Araújo', image: group30 },
-  { name: 'Brenda Garcia', image: group45 },
 
   // { name: 'Adriana Casadei', image: group29 },
   // { name: 'Fernanda Duarte', image: group31 },
@@ -125,30 +125,39 @@ const TeamSection = () => {
   const sliderRef = useRef<Slider>(null)
 
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 5,
-    slidesToScroll: 5,
+    slidesToShow: 6,
+    slidesToScroll: 1,
     initialSlide: 0,
     swipeToSlide: true,
     autoplay: true,
     autoplaySpeed: 3000,
     responsive: [
       {
-        breakpoint: 1400,
+        breakpoint: 1600,
         settings: {
-          slidesToShow: 4,
-          slidesToScroll: 4,
+          slidesToShow: 5,
+          slidesToScroll: 1,
           infinite: true,
           dots: true,
         },
       },
       {
-        breakpoint: 1024,
+        breakpoint: 1330,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 1100,
         settings: {
           slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToScroll: 1,
           infinite: true,
           dots: true,
         },
@@ -157,7 +166,7 @@ const TeamSection = () => {
         breakpoint: 840,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToScroll: 1,
           initialSlide: 2,
         },
       },
